@@ -86,7 +86,7 @@ footer{
     width: 483px;
 }
 .social-icons{
-    color: #969BAB;
+    color: #969babe5;
     margin-bottom: 20px;
 }
 .social-icons i{
@@ -136,11 +136,24 @@ footer{
        align-items:center;
        justify-content: center;
     }
-   
+   .player{
+       width: 330px;
+       height: 474px;
+       margin: 0 15px;
+   }
     footer{
         margin-bottom: 187px;
     }
-
+.logo{
+    width: 150px;
+    height: 63px;
+    margin-right: 91px;
+    margin-left: 18px;
+}
+.social-icons{
+   width: 170px;
+   height: 32px; 
+}
 
     .logo img{
         width: 250px;

@@ -9,14 +9,14 @@
 }
 body{
   font-family: 'Poppins', sans-serif;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
  
 }
 /* banner style */
 .banner{
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  grid-column-gap: 200px;
+  grid-column-gap: 102px;
   height: 677px;
   justify-content: space-between;
   background-color: #2D25A0;
@@ -103,6 +103,7 @@ footer{
 @media only screen and (max-width:688px) {
    main{
        width:100%;
+       overflow-x: hidden;
        
    }
    header{
@@ -145,20 +146,20 @@ footer{
         margin-bottom: 187px;
     }
 .logo{
-    width: 150px;
-    height: 63px;
-    margin-right: 91px;
+    
+    margin-right: 71px;
     margin-left: 18px;
 }
+.logo img{
+        width: 271px;
+        margin-bottom: 10px;
+    }
 .social-icons{
    width: 170px;
    height: 32px; 
 }
 
-    .logo img{
-        width: 250px;
-        margin-bottom: 10px;
-    }
+    
 
 
 

@@ -1,5 +1,8 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
 /* common style */
 *{
     margin: 0;
@@ -13,7 +16,6 @@ body{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-column-gap: 200px;
-  /* display: flex; */
   justify-content: space-between;
   background-color: #2D25A0;
   
@@ -37,13 +39,15 @@ margin: 153px 140px 86px 0;
 }
 /* Player List Style */
 .players-list{
-    margin: 100px;
+    margin:70px 120px 0 120px;
+    justify-content: center;
+    align-items: center;
 }
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-row-gap: 10px;
-    grid-column-gap: 10px;
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
 }
 .player{
     width: 330px;
@@ -52,7 +56,7 @@ border: 1px solid;
 padding: 10px;
 
 }
-.player-img img{
+.player img{
     width: 100%;   
 }
 .player-details{
@@ -60,4 +64,32 @@ padding: 10px;
 }
 .player-info{
     padding-top: 8px;
+}
+/* Footer style */
+footer{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.logo{
+    margin-bottom: 20px;
+}
+.logo img{
+    width: 483px;
+}
+.social-icons{
+    color: #969BAB;
+    margin-bottom: 20px;
+}
+.social-icons i{
+      width: 38px;
+}
+.icons{
+     
+    font-size: 30px;
+}
+.copyright{
+    font-size: 18px;
 }

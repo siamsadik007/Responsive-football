@@ -1,0 +1,63 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common style */
+*{
+    margin: 0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+ 
+}
+/* banner style */
+.banner{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap: 200px;
+  /* display: flex; */
+  justify-content: space-between;
+  background-color: #2D25A0;
+  
+}
+.banner img{
+   width:556px;
+height: 438px;
+margin: 153px 140px 86px 0;
+}
+.banner-info{
+ margin: 207px 0 240px 156px;
+}
+.banner-text{
+    font-size: 64px;
+    color: white;
+   
+}
+.banner-info button{
+    width: 90px;
+    height: 40px;
+}
+/* Player List Style */
+.players-list{
+    margin: 100px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+.player{
+    width: 330px;
+height: 474px;
+border: 1px solid;
+padding: 10px;
+
+}
+.player-img img{
+    width: 100%;   
+}
+.player-details{
+    margin-top: 10px;
+}
+.player-info{
+    padding-top: 8px;
+}

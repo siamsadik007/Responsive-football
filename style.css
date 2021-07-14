@@ -86,18 +86,56 @@ box-shadow: 2px 2px 35px rgba(128, 128, 128, 0.637);
 .player-info{
     padding-top: 8px;
 }
+hr{
+    
+    width:1000px;
+    margin-left: 165px;
+    border: 1px solid rgba(255, 0, 0, 0.329);
+}
 /* Players Information */
 
 .players-information{
    display: flex;
    flex-direction: column;
    align-items: center;
+   margin-top: 40px;
 }
-.text-box {
+.players-information h1{
+    color: rgb(23, 134, 129);
+    margin-bottom: 10px;
+}
+.players-information p{
+    color: rgb(110, 110, 110);
+}
+.players-information span{
+    font-size: 35px;
+    color: tomato;
+    border-block: 5px solid red;
     
 }
+.players-information p{
+    width: 400px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.text-box {
+    border-bottom: 2px solid;
+    width: 250px;
+}
+.text-box input{
+    border: none;
+    outline: none;
+    font-size: 22px;
+}
 .btn{
-   
+    color: white;
+   background-color: indianred;
+   margin-top: 8px;
+   transition: transform .4s;
+}
+.btn:hover{
+    background-color: rgb(255, 0, 0);
+    transform: scale(1.1);
 }
 
 
@@ -181,6 +219,11 @@ footer{
        width: 330px;
        height: 474px;
        margin: 0 15px;
+   }
+   hr{
+       border: 1px solid red ;
+       width: 300px;
+      margin: 0 55px;
    }
    /* MQ Footer Style */
     footer{

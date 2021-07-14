@@ -93,3 +93,48 @@ footer{
 .copyright{
     font-size: 18px;
 }
+/* Media Queries */
+@media only screen and (max-width:688px) {
+   main{
+       width:100%;
+       
+   }
+   header{
+       width: 100%;
+
+   }
+   .banner{
+       display: flex;
+       flex-direction: column;
+   }
+   .banner-text{
+       font-size: 30px;
+   }
+   .banner-info{
+          margin:51px 66px 0 16px;
+   }
+   .banner img{
+       width: 329px;
+       height: 259px;
+       margin: 50px 0 0 0;
+
+   }
+    .players{
+        display: flex;
+        flex-direction: column;
+       align-items:center;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+}

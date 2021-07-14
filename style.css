@@ -4,6 +4,7 @@
 
 
 /* common style */
+
 *{
     margin: 0;
 }
@@ -13,6 +14,7 @@ body{
  
 }
 /* banner style */
+
 .banner{
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -43,6 +45,7 @@ margin: 153px 140px 86px 0;
     height: 24px;
 }
 /* Player List Style */
+
 .players-list{
     margin:70px 120px 0 120px;
     justify-content: center;
@@ -57,8 +60,8 @@ margin: 153px 140px 86px 0;
 .player{
     width: 330px;
 height: 474px;
-border: 1px solid;
 padding: 10px;
+box-shadow: 2px 2px 35px rgba(128, 128, 128, 0.637);
 
 }
 .player img{
@@ -70,7 +73,9 @@ padding: 10px;
 .player-info{
     padding-top: 8px;
 }
+
 /* Footer style */
+
 footer{
     display: flex;
     flex-direction: column;
@@ -99,17 +104,20 @@ footer{
 .copyright{
     font-size: 18px;
 }
-/* Media Queries */
+/* -------------------------
+       Media Queries
+------------------------ */
 @media only screen and (max-width:688px) {
-   main{
-       width:100%;
-       overflow-x: hidden;
-       
-   }
-   header{
-       width: 100%;
 
+  /* MQ Common Style */
+
+    main{
+       width:100%;
+       overflow-x: hidden;  
    }
+
+   /* MQ Banner Style */
+
    .banner{
        display: flex;
        flex-direction: column;
@@ -131,6 +139,9 @@ footer{
        margin: 0 16px 62px 16px;
 
    }
+
+   /* MQ Players List style */
+
     .players{
         display: flex;
         flex-direction: column;
@@ -142,6 +153,7 @@ footer{
        height: 474px;
        margin: 0 15px;
    }
+   /* MQ Footer Style */
     footer{
         margin-bottom: 187px;
     }

@@ -28,6 +28,10 @@ body{
    width:556px;
 height: 438px;
 margin: 153px 140px 86px 0;
+transition: transform 1s;
+}
+.banner img:hover{
+    transform: rotate(360deg);
 }
 .banner-info{
     width: 485px;
@@ -41,8 +45,17 @@ margin: 153px 140px 86px 0;
    
 }
 .banner-info button{
-    width: 88px;
-    height: 24px;
+    width: 168px;
+    height: 44px;
+    font-size: 16px;
+    color: white;
+    background-color: #E02C6D;
+    transition: transform .9s;
+}
+.banner-info button:hover{
+    transform: scale(1.2);
+
+
 }
 /* Player List Style */
 
@@ -73,6 +86,22 @@ box-shadow: 2px 2px 35px rgba(128, 128, 128, 0.637);
 .player-info{
     padding-top: 8px;
 }
+/* Players Information */
+
+.players-information{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.text-box {
+    
+}
+.btn{
+   
+}
+
+
+
 
 /* Footer style */
 
@@ -81,7 +110,7 @@ footer{
     flex-direction: column;
    text-align: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 158px;
     margin-bottom: 63px;
 }
 .logo{

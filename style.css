@@ -138,8 +138,21 @@ hr{
     transform: scale(1.1);
 }
 
+/* Sponsors style */
+.sponsors{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    padding-top: 50px;
 
-
+}
+.sponsors h1{
+    color: tomato;
+}
+.sponsor img{
+width: 150px;
+}
 
 /* Footer style */
 
@@ -225,6 +238,14 @@ footer{
        width: 300px;
       margin: 0 55px;
    }
+/* MQ sponsors style */
+.sponsors{
+    flex-direction: column;
+}
+.sponsor{
+    margin: 20px;
+}
+
    /* MQ Footer Style */
     footer{
         margin-bottom: 187px;
